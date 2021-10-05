@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 :root{
-    --primary : #dd0d5d;
+    --primary : #a9eb10;
 }
 *{
     margin: 0;
@@ -218,6 +218,7 @@ section .title::after{
 }
 
 /* about section styling */
+
 .about .title::after{
     content: "who i am";
 }
@@ -262,10 +263,7 @@ section .title::after{
 }
 
 /* skills section styling */
-.skills, .teams{
-    color:#fff;
-    background: #111;
-}
+
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
