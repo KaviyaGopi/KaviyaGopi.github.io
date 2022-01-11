@@ -204,6 +204,35 @@ hr{
     color: #B85839;
 }
 
+
+#project a{
+    text-decoration: none;
+    font-size: 22px;
+    width: auto;
+    color: #B85839;
+}
+
+#project a:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -15px;
+    background-color: #B85839;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+#project a:hover:before{
+    visibility: visible;
+    width: 160px;
+}
+
+#project a.visited{
+    color: #B85839;
+}
+
+
 #project ul {
     list-style: none;
     padding-left: 30px;
