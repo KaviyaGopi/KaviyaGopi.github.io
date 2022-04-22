@@ -45,6 +45,9 @@ body {
   font-size: 16px;
   font-weight: 300;
   padding: 18px;
+
+  overflow: hidden;
+  transition: all 0.4s;
 }
 
 .nav-frame-right-a {
@@ -53,11 +56,16 @@ body {
   text-decoration: none;
 }
 
+/* .nav-frame-right-a:hover {
+  background-color: #000;
+} */
+
 .resumeButton {
   outline: 0;
   border: 0;
   height: 30px;
   border-radius: 5px;
+  text-decoration: none;
   padding-top: 4px;
   padding-left: 6px;
   padding-right: 6px;
